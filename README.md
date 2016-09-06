@@ -2,7 +2,9 @@
 
 Create a .deb package (suitable for xbuntu, Debian, Linux Mint).
 
-The package just depends on a number of packages to create a saner public computer system.
+The package depends on a number of packages to create a saner public computer system.
+
+It comes with scripts to create a guest-prefs user and autologins a guest user to an lxde session.
 
 ## Package building
 
