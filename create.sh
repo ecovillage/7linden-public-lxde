@@ -15,7 +15,14 @@ fpm -s empty\
     --depends lxde\
     --depends libreoffice\
     --depends chromium-browser\
+<<<<<<< HEAD
     --depends zenity\
+=======
+    --depends chromium-browser\
+    --depends language-pack-de\
+    --depends language-pack-de-base\
+    --depends language-selector-gnome\
+>>>>>>> depend on some language packages.
     --license "GPLv3+"\
     --url     "https://github.com/ecovillage/7linden-public-lxde"\
     --maintainer "felix.wolfsteller@gmail.com"
