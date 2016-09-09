@@ -18,18 +18,11 @@ fpm -s empty\
     --depends lxsession-logout\
     --depends libreoffice\
     --depends chromium-browser\
-<<<<<<< HEAD
-    --depends zenity\
-=======
-    --depends chromium-browser\
     --depends language-pack-de\
     --depends language-pack-de-base\
     --depends language-selector-gnome\
-<<<<<<< HEAD
->>>>>>> depend on some language packages.
-=======
     --depends ntp\
->>>>>>> depend on ntp, lxsession-logout and handy tools.
+    --depends zenity\
     --license "GPLv3+"\
     --url     "https://github.com/ecovillage/7linden-public-lxde"\
     --maintainer "felix.wolfsteller@gmail.com"

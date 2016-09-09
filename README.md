@@ -4,6 +4,8 @@ Create a .deb package (suitable for xbuntu, Debian, Linux Mint) that depends on 
 
 It comes with scripts to create a guest-prefs user and autologins a guest user to an lxde session.
 
+Ideas come from [Ubuntu Wiki (Customize Guest Session)](https://help.ubuntu.com/community/CustomizeGuestSession).
+
 ## Package building
 
 To build the package you need to have [FPM](https://github.com/jordansissel/fpm) in the path and call `create.sh`.
