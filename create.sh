@@ -25,5 +25,6 @@ fpm -s empty\
     --depends zenity\
     --license "GPLv3+"\
     --url     "https://github.com/ecovillage/7linden-public-lxde"\
-    --maintainer "felix.wolfsteller@gmail.com"
+    --maintainer "felix.wolfsteller@gmail.com"\
+    etc opt
 
