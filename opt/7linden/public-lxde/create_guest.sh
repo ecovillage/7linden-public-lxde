@@ -14,3 +14,5 @@ cat << EOF > /home/guest-prefs/.config/autostart/autostart.desktop
 Type=Application
 Exec=chromium-browser
 EOF
+
+chown -R guest-prefs:guest-prefs /home/guest-prefs/.config
