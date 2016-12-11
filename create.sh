@@ -4,7 +4,7 @@
 
 # Create 7linden-**.deb
 
-fpm -s empty\
+fpm -s dir\
     -t deb\
     -v `cat VERSION`\
     -a all\

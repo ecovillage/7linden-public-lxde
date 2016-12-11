@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# still is interactive!
-adduser guest-prefs --gecos "Guest User Template"
+adduser guest-prefs --disabled-password --gecos "Guest User Template"
 echo "guest-prefs:gup" | chpasswd
 
 mkdir /etc/guest-session
