@@ -1,9 +1,9 @@
 #!/bin/bash
 
-adduser guest-prefs --disabled-password --gecos "Guest User Template"
+adduser -prefs --disabled-password --gecos "Guest User Template" guest-prefs
 echo "guest-prefs:gup" | chpasswd
 
-mkdir /etc/guest-session
+mkdir -p /etc/guest-session
 ln -s /home/guest-prefs /etc/guest-session/skel
 
 
